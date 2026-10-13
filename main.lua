@@ -284,7 +284,7 @@ local toggle = button(hopPage, "AUTO HOP: OFF",
 
 local delayBox = textBox(hopPage, "Delay seconds",
     UDim2.new(0.5, 4, 0, 34), UDim2.new(0.5, -18, 0, 40))
-delayBox.Text = "10"
+delayBox.Text = "5"
 
 label(hopPage, "CURRENT SERVER", UDim2.fromOffset(14, 92),
     UDim2.new(1, -28, 0, 16), 11, C.muted, true)
