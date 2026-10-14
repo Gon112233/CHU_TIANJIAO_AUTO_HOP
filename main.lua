@@ -13,7 +13,7 @@ local CoreGui = game:GetService("CoreGui")
 local player = Players.LocalPlayer
 local PLACE_ID = game.PlaceId
 
-local enabled = false
+local enabled = true
 local running = false
 local visited = {}
 
