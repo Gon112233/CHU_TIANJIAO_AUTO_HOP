@@ -1004,5 +1004,6 @@ gui.Parent = CoreGui
 selectTab("AutoHop")
 refreshIslands()
 setStatus("Idle. Press RightShift to hide/show.", nil)
-
+setEnabled(true)
+startAutoHop()
 print("[ChuTianjiaoAutoHop] Loaded successfully")
